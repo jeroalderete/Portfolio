@@ -1,0 +1,14 @@
+{
+  "name": "css_form_video_bg",
+  "version": "1.0.0",
+  "description": "A form with a video looping background",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css"
+  },
+  "author": "Jeronimo Alderete",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
