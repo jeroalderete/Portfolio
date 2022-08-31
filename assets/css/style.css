@@ -147,12 +147,12 @@ ul li {
 
 /* Subtitle animation  */
 
-span{
+span {
   opacity: 0;
   transition: all 0.4s ease;
 }
 
-span.fade{
+span.fade {
   opacity: 1;
 }
 
@@ -330,7 +330,8 @@ span.fade{
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1rem;
 }
-@media screen and (min-width: 1300px){
+
+@media screen and (min-width: 1300px) {
   .cards-container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
@@ -339,7 +340,7 @@ span.fade{
 
 .card-item {
   position: relative;
-  
+
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -559,8 +560,8 @@ span.fade{
   margin: 25px;
 }
 
-.linke a{
- padding: 2rem;
+.linke a {
+  padding: 2rem;
 }
 
 .nav-linkH {
@@ -760,6 +761,26 @@ textarea {
   background-color: black;
   border-top: 1px solid #dfe1e6;
   justify-content: center;
+}
+footer .footer-content-flex {
+  height: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+ .footer-content-flex h6 {
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  font-family: "Source Code Pro", monospace;
+  color: black;
+  text-decoration: none;
+}
+
+.footer .footer-content-flex h6 a:hover {
+  color: #ccc;
+  text-decoration: none;
 }
 
 .footer .social-icon {
@@ -1244,6 +1265,7 @@ small {
   justify-content: start;
   align-items: center;
 }
+
 .up {
   height: 10vh;
   padding: 20px;
@@ -1251,7 +1273,7 @@ small {
   font-size: 20px;
   color: #fff;
   cursor: pointer;
-   position: relative;
+  position: relative;
   top: 7px;
   font-size: 2rem;
 }
