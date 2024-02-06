@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css"
     href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
@@ -17,6 +19,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
   <!--Bootstrap cdn font-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
     type="text/css" />
@@ -45,33 +48,39 @@
 
         <!-- Nav List -->
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#top" class="nav-link">
-              <i class="material-icons">home</i> Home
-            </a>
-          </li>
+
           <li class="nav-item">
             <a href="#aboutme" class="nav-link">
-              <i class="material-icons">perm_identity</i> About Me
+              <i style="margin-right: 3px; font-size:1rem;" class="fas fa-user"></i> 
+              About Me
             </a>
           </li>
 
           <li class="nav-item">
             <a href="#projects" class="nav-link">
-              <i class="material-icons">view_carousel</i> PROJECTS
+              <i style="margin-right: 3px; font-size:1rem;" class="fas fa-globe"></i> 
+              PROJECTS
             </a>
           </li>
           <li class="nav-item">
             <a href="#skills" class="nav-link">
-              <i class="material-icons">code</i> Skills
+              <i style="margin-right: 3px; font-size:1rem;" class="fas fa-graduation-cap"></i>  Skills
             </a>
           </li>
           <li class="nav-item">
             <a href="#contact" class="nav-link">
-              <i class="material-icons">mail</i> Contact
+              <i style="margin-right: 3px; font-size:1rem;" class="fas fa-envelope"></i> 
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            <div id="google_translate_element" style="position: relative; top: 5px;"></div>
+            <a class="nav-link">
+              Translate
             </a>
           </li>
         </ul>
+      
       </div>
     </div>
     <!--  Hamburguer menu -->
@@ -96,7 +105,7 @@
           <li class="nav-itemH">
             <a href="#contact" class="nav-linkH" id="contactH">Contact</a>
           </li>
-
+         
         </ul>
       </div>
     </div>
@@ -105,9 +114,11 @@
   <!-- Header -->
 
   <div class="page-header header-filter" data-parallax="true">
+    
 
     <div class="headline-content">
       <ul class="social-icon d-flex">
+        
         <li class="social-item">
           <a href="https://instagram.com/desarrolloliebre_" target="_blank">
             <img style="position: relative; right: 12px; background-color: #ccc; border-radius: 17rem; padding: 0.3rem;"
@@ -172,13 +183,14 @@
                 <div class="row">
                   <span class="col-md-1"></span>
                   <div class="col-md-10 text-left">
-                    <p>
-                      Front End Web Developer focused on E-Commerce Websites as a Freelancer. <br>
-                      Currently coding in HTML,CSS and JavaScript. <br> For fast building projects, I'm using WordPress.
+                    
+                    <p class="text-intro">
+                      As a Freelance Frontend Web Developer specializing in E-Commerce Websites, I am proficient in utilizing frameworks such as React, Astro, Next.js, and Vanilla JavaScript to deliver high-quality solutions.<br>
+                      Additionally, I leverage WordPress for rapid project development. <br> I also specialize in PHP template customization.<br> 
                       <br>
-                      I'm always thinking of new ideas to promote and make effective the sale of all your products.
+                      Continuously striving for innovation, I am committed to devising creative strategies to enhance product promotion and drive sales effectiveness.
                       <br> <br>
-                      Check out some of my work and feel free to contact me.
+                      I invite you to explore some of my past projects and encourage you to reach out to discuss how I can assist you further.
                     </p>
                   </div>
                   <span class="col-md-1"></span>
@@ -227,7 +239,8 @@
                 <img src="https://i.ibb.co/Ws4DDH6/minilogoplantamade.png" alt="project-logo" />
 
               </div>
-              <h3    class="fw-normal">PLANTA MADE</h3>
+              <h3 class="fw-normal"><span class="notranslate"> PLANTA MADE</span>
+               </h3>
               <p >
                 Website about Wellness and Health. <br>
               </p>
@@ -250,7 +263,7 @@
                 <img style="position: relative; top: 50px;" src="https://i.ibb.co/VHHLhL8/logo-Black.png" alt="project-logo" />
 
               </div>
-              <h3 class="fw-normal">BLACK RECORDS</h3>
+              <h3 class="fw-normal"><span class="notranslate"> BLACK RECORDS</span></h3>
               <p>
                  Website about Black Records Studios.
               </p>
@@ -351,9 +364,9 @@
             <span class="icon-bootstrap spancss"></span>
 
             <div>
-              <img  class="img-skill" src="https://i.ibb.co/9rxqfQg/bootstrap.png" alt="">
+              <img class="img-skill good php-logo" src="./image/php.png" alt="">
             </div>
-            <h3 class="title-skill" >Bootstrap</h3>
+            <h3 class="title-skill"><span class="notranslate">PHP</span></h3>
           </div>
         </div>
         <div>
@@ -362,7 +375,7 @@
             <div>
               <img class="img-skill" src="https://i.ibb.co/YLQG08d/sass2.png" alt="">
             </div>
-            <h3 class="title-skill" >Sass</h3>
+            <h3 class="title-skill"><span class="notranslate">Sass</span></h3>
           </div>
         </div>
         <div>
@@ -419,7 +432,7 @@
             <div>
               <img class="img-skill" src="https://i.ibb.co/wdcQQv8/tailwind2.png" alt="">
             </div>
-            <h3 class="title-skill">Tailwind</h3>
+            <h3 class="title-skill"><span class="notranslate">Tailwind</span></h3>
           </div>
         </div>
 
@@ -427,9 +440,9 @@
           <div class="icon1">
             <span class="icon-stackoverflow spancss"></span>
             <div>
-              <img class="img-skill" src="https://i.ibb.co/CBq8JmR/react-logo.png" alt="" width="128">
+              <img class="img-skill" src="https://i.ibb.co/CBq8JmR/react-logo.png" alt="" width="90">
             </div>
-            <h3 class="title-skill">React</h3>
+            <h3 class="title-skill"><span class="notranslate">React</span></h3>
           </div>
         </div>
         <div>
@@ -519,6 +532,19 @@
     
 
     <!------- Javascript  ------->
+
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script>
+
+      function googleTranslateElementInit(){
+        new google.translate.googleTranslateElementInit(
+        {pageLanguage: 'es'},
+        'google_translate_element');
+      }
+      
+    </script>
+
     <script src="./js/script.js"></script>
     <script src="./js/textresolve.js"></script>
     <script>
@@ -533,12 +559,31 @@
     </script>
 
 
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+     <script>
 
+        function googleTranslateElementInit(){
+          new google.translate.TranslateElement(
+          {pageLanguage: 'en',
+          includedLanguages: 'es,en',
+          autoDisplay: false,
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          gaTrack: true,
+          gaId: 'UA-12345678-1',
+          exclude: ['.notranslate'],
+        },
+          
+          'google_translate_element');
+        }
+        
+  
+      </script>
 
-
-
-
-
+      <style>
+        .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed{
+          display:none!important;
+        }
+      </style>
 
 
 
