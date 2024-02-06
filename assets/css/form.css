@@ -1,0 +1,162 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+.body {
+  font-family: "Noto Sans", sans-serif; }
+
+.form-heading {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  font-size: 2.4rem;
+  border-bottom: 3px solid #bf0404;
+  color: #1b3e59; }
+
+.margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.bg-video {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: .9; }
+
+.btn {
+  float: right;
+  padding: 1rem 1.5rem;
+  font-family: "Noto Sans", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: none;
+  background-color: #bf0404;
+  transition: all 1s ease-in; }
+  .btn:hover {
+    cursor: pointer;
+    transform: rotateX(360deg);
+    background-color: #1b3e59; }
+
+.form__group {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 2rem; }
+
+.form__input {
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid transparent;
+  }
+  .form__input:focus {
+    outline: none;
+    border-bottom: 3px solid #1b3e59; }
+  .form__input:focus:invalid {
+    border-bottom: 3px solid #bf0404; }
+
+.form__label {
+  display: block;
+  font-size: 1.2rem;
+  font-family: "Noto Sans", sans-serif;
+  margin-left: 1.5rem;
+  padding: 1rem 0;
+  color: #525252;
+  transition: all .3s; }
+
+.form__input:placeholder-shown + .form__label {
+  transform: translateY(-4rem);
+  opacity: 0; }
+
+.form__error {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2rem;
+  color: #bf0404;
+  position: absolute;
+  top: 5.5rem;
+  left: 1.5rem; }
+  .form__error--message {
+    top: 6.7rem; }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #525252;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2rem; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #525252;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2rem; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #525252;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2rem; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #525252;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2rem; }
+
+.page-wrapper {
+  max-width: 120rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: black;
+  position: relative; }
+
+.form-bg {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 80%; }
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 70%;
+  height: 50.5rem;
+  padding: 2rem;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; }
+  .message{
+    padding-bottom: 6rem;
+  }
+
+
+  @media (max-width: 600px) {
+
+    .form-bg {
+      position:absolute;
+       left:47%!important;
+       width: 80%!important; }
+
+  .form-container{
+    width: 90%!important;
+    displ
+  }
+
+  }

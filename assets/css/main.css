@@ -1,0 +1,9 @@
+/* Custom style rules + UI Kit Overrides*/
+
+#aboutMeAvatar {
+    margin-bottom: 50px;
+}
+
+.bg-brand{
+   background-color: #3fd2a5 !important;
+}

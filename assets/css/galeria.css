@@ -1,0 +1,1543 @@
+/* IMPORTS VARIABLES MIXINS EXTENDS  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap");
+.header .menu .nav-menu {
+  background-color: #000;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  line-height: 1rem;
+  padding: .75rem 1rem; }
+
+main .portfolio-container .img-section1 .portfolio-title-audio .portfolio-btn,
+main .portfolio-container .img-section2 .portfolio-title-audio .portfolio-btn,
+main .portfolio-container .img-section3 .portfolio-title-audio .portfolio-btn, .main section .main-contacto div .btn-contacto, #main #card-section #grid-card-container #flex-card-container #grid-item-card #card #card-btn {
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  transition: .1s linear;
+  color: #fff;
+  border: solid 1.5px #fff;
+  background-color: transparent; }
+
+#main #card-section #grid-card-container #flex-card-container #grid-item-card #card {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.main-equipos .card-vst-section .card-vst1,
+.main-equipos .card-vst-section .card-vst2,
+.main-equipos .card-vst-section .card-vst3,
+.main-equipos .card-vst-section .card-vst4,
+.main-equipos .card-vst-section .card-vst5,
+.main-equipos .card-vst-section .card-vst6,
+.main-equipos .card-vst-section .card-vst7 {
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: #17141d;
+  box-shadow: -1rem 0 3rem #000;
+  display: flex;
+  flex-direction: column;
+  transition: .2s;
+  margin: 0;
+  scroll-snap-align: start;
+  clear: both;
+  position: relative; }
+
+#main #main-text #main-text-container #main-subtitle, #main #card-section #card-title-intro, #main #main-text-2-section #main-text-2-container #main-subtitle-2, #main #recording-studio-section #recording-studio-title, #main .grid-produccion-musical .produccion-musical-title, #main .grid-formacion-musical .formacion-title {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  color: whitesmoke; }
+
+#main #card-section #card-title-intro span, #main #recording-studio-section #recording-studio-title span, #main .grid-produccion-musical .produccion-musical-title h5 span, #main .grid-formacion-musical .formacion-title span {
+  border-bottom: 0.1rem solid whitesmoke; }
+
+main .portfolio-container .main-hero-portfolio, .grid-container-horarios .main-hero-horarios, .main section .contacto-hero, #main #main-hero-section #main-hero-container {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover; }
+
+.main-equipos .card-vst-section .card-article h2:hover, .main-equipos .card-vst-section .tags a:hover {
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; }
+
+@media screen and (min-width: 600px) {
+  #body #main #card-section #grid-card-container #flex-card-container {
+    margin: 0; }
+    #body #main #card-section #grid-card-container #flex-card-container #grid-item-card #card {
+      width: 75%;
+      margin: 0 auto; }
+    #body #main #card-section #grid-card-container #flex-card-container #grid-item-card #card #card-text {
+      width: 50%; }
+  #body #main .grid-formacion-musical .formacion-title {
+    font-size: 3rem; }
+  #body #main .grid-formacion-musical .formacion1 img,
+  #body #main .grid-formacion-musical .formacion2 img,
+  #body #main .grid-formacion-musical .formacion3 img {
+    width: 100%; }
+  #body main .portfolio-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "main-hero-portfolio main-hero-portfolio" "portfolio-title portfolio-title" "img-section1 img-section2"; }
+  #body .main-equipos {
+    grid-template-areas: "main-equipos-title main-equipos-title" "card1 card2" "card3 card4" "card5 card6" "horizontal-line-vst horizontal-line-vst" "vst-title vst-title" "card-vst-section card-vst-section" "horizontal-line-carousel horizontal-line-carousel" "carousel-title carousel-title" "carousel-gallery carousel-gallery"; }
+    #body .main-equipos .main-equipos-title {
+      text-align: center;
+      width: 100%; }
+      #body .main-equipos .main-equipos-title h1 {
+        font-size: 3rem;
+        padding-top: 7rem; }
+  #body .flex-photo-gallery .gallery-title h1 {
+    font-size: 4rem; }
+  #body .flex-photo-gallery .grid-photo-container {
+    padding: 5rem;
+    gap: 3rem;
+    grid-template-areas: "gallery-section1 gallery-section2" "gallery-section1 gallery-section2" "gallery-section1 gallery-section2"; }
+    #body .flex-photo-gallery .grid-photo-container .gallery-section2 {
+      display: block; }
+    #body .flex-photo-gallery .grid-photo-container .gallery-section1 .gallery-flex-container img,
+    #body .flex-photo-gallery .grid-photo-container .gallery-section2 .gallery-flex-container img,
+    #body .flex-photo-gallery .grid-photo-container .gallery-section3 .gallery-flex-container img {
+      width: 100%; } }
+
+@media screen and (min-width: 726px) {
+  #body .header .menu .nav-menu .container-logo {
+    margin-left: 1rem;
+    height: 15vh; }
+    #body .header .menu .nav-menu .container-logo .link-logo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: 1s; }
+      #body .header .menu .nav-menu .container-logo .link-logo:hover {
+        transform: scale(1.1);
+        z-index: 2; }
+      #body .header .menu .nav-menu .container-logo .link-logo img {
+        display: block;
+        width: 50%; }
+        #body .header .menu .nav-menu .container-logo .link-logo img img:hover {
+          animation: rotating 3s linear infinite; }
+  @keyframes rotating {
+    from {
+      transform: rotate(0deg); }
+    to {
+      transform: rotate(360deg); } }
+  #body #main #main-hero-section #main-hero-container {
+    height: 60vh; }
+    #body #main #main-hero-section #main-hero-container #main-title h1 {
+      font-size: 4rem; }
+  #body #main #card-section #card-title-intro {
+    font-size: 3rem;
+    padding: 1rem 0; }
+  #body #main .grid-estudios {
+    margin: 0 6rem; }
+  #body .footer-container .footer-content span {
+    display: inline-block; }
+  #body main .portfolio-container .main-hero-portfolio .portfolio-hero-title {
+    font-size: 4rem; }
+  #body .grid-container-horarios .main-hero-horarios section .main-section-horarios-flex .main-title-horarios {
+    font-size: 3rem;
+    padding-top: 4rem; }
+  #body .container-fluid #carousel-gallery {
+    margin: 0 5rem; } }
+
+@media screen and (min-width: 800px) {
+  #body #main #card-section #grid-card-container #flex-card-container #grid-item-card #card {
+    width: 60%; } }
+
+@media screen and (min-width: 1024px) {
+  #body #main #main-hero-section #main-hero-container {
+    height: 80vh; }
+    #body #main #main-hero-section #main-hero-container #main-title #title-hero {
+      font-size: 5.5rem; }
+  #body #main #main-text {
+    padding: 5rem 0 3rem 0; }
+    #body #main #main-text #main-text-container {
+      width: 65%;
+      font-size: 1rem; }
+      #body #main #main-text #main-text-container #main-subtitle {
+        font-size: 3rem; }
+  #body #main #main-text-2-section #main-text-2-container {
+    width: 65%;
+    font-size: 1rem; }
+    #body #main #main-text-2-section #main-text-2-container #main-subtitle-2 {
+      font-size: 3rem;
+      line-height: 3.5rem; }
+  #body #main #card-section {
+    padding: 2rem 0 7rem 0; }
+    #body #main #card-section #card-title-intro {
+      padding: 0;
+      letter-spacing: 0.1rem;
+      font-size: 3rem; }
+    #body #main #card-section #grid-card-container {
+      padding: 3rem 2rem 0 2rem;
+      height: 100%;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "card-section1 card-section2 card-section3"; }
+      #body #main #card-section #grid-card-container #flex-card-container #card-section1 #grid-item-card #card,
+      #body #main #card-section #grid-card-container #flex-card-container #card-section2 #grid-item-card #card,
+      #body #main #card-section #grid-card-container #flex-card-container #card-section3 #grid-item-card #card {
+        margin: 0;
+        width: 100%; }
+        #body #main #card-section #grid-card-container #flex-card-container #card-section1 #grid-item-card #card #card-title,
+        #body #main #card-section #grid-card-container #flex-card-container #card-section2 #grid-item-card #card #card-title,
+        #body #main #card-section #grid-card-container #flex-card-container #card-section3 #grid-item-card #card #card-title {
+          font-size: 2rem; }
+        #body #main #card-section #grid-card-container #flex-card-container #card-section1 #grid-item-card #card #card-text,
+        #body #main #card-section #grid-card-container #flex-card-container #card-section2 #grid-item-card #card #card-text,
+        #body #main #card-section #grid-card-container #flex-card-container #card-section3 #grid-item-card #card #card-text {
+          width: 80%;
+          font-size: 1.1rem;
+          line-height: 1.7rem;
+          margin-bottom: 2.5rem; }
+  #body #main #recording-studio-section #recording-studio-title {
+    font-size: 3rem; }
+  #body #main #recording-studio-section #recording-studio {
+    padding: 3rem 0; }
+  #body #main .grid-estudios {
+    margin: 2rem;
+    display: grid;
+    grid-template-areas: "image1 estudio-article1" "estudio-article2 image2" "image3 estudio-article3";
+    row-gap: 4rem; }
+    #body #main .grid-estudios .image1 img,
+    #body #main .grid-estudios .image2 img,
+    #body #main .grid-estudios .image3 img {
+      width: 100%; }
+    #body #main .grid-estudios .image1 .image-overlay,
+    #body #main .grid-estudios .image2 .image-overlay,
+    #body #main .grid-estudios .image3 .image-overlay {
+      width: 100%; }
+    #body #main .grid-estudios article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #body #main .grid-estudios article p {
+        padding: 0 2rem;
+        font-size: 1.3rem;
+        width: 100%;
+        line-height: 2rem; }
+  #body #main .grid-produccion-musical {
+    grid-template-areas: "produccion-title produccion-title produccion-title" "produccion1 produccion2 produccion3" "produccion-article1 produccion-article2 produccion-article3";
+    row-gap: 4rem; }
+    #body #main .grid-produccion-musical .produccion-musical-title {
+      padding: 2rem 0; }
+      #body #main .grid-produccion-musical .produccion-musical-title h5 {
+        font-size: 2.5rem; }
+    #body #main .grid-produccion-musical .produccion-article1,
+    #body #main .grid-produccion-musical .produccion-article2,
+    #body #main .grid-produccion-musical .produccion-article3 {
+      margin: 0 2rem 2rem 2rem; }
+  #body #main .grid-formacion-musical {
+    padding: 2rem 0;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "formacion-title formacion-title" "formacion1 formacion-article1" "formacion-article2 formacion2" "h-line h-line" "formacion3 formacion-article3" "formacion-article4 formacion4";
+    row-gap: 4rem; }
+    #body #main .grid-formacion-musical .formacion1 img,
+    #body #main .grid-formacion-musical .formacion2 img,
+    #body #main .grid-formacion-musical .formacion3 img {
+      height: 100%; }
+    #body #main .grid-formacion-musical .formacion-article1 {
+      margin: 0;
+      padding: 2rem; }
+      #body #main .grid-formacion-musical .formacion-article1 ul {
+        text-align: center; }
+    #body #main .grid-formacion-musical .formacion-article2,
+    #body #main .grid-formacion-musical .formacion-article3 {
+      margin: 0;
+      padding-top: 3rem; }
+      #body #main .grid-formacion-musical .formacion-article2 p,
+      #body #main .grid-formacion-musical .formacion-article3 p {
+        padding: 0 2rem; }
+        #body #main .grid-formacion-musical .formacion-article2 p span,
+        #body #main .grid-formacion-musical .formacion-article3 p span {
+          display: block; }
+    #body #main .grid-formacion-musical .formacion4 img {
+      width: 100%;
+      height: 100%; }
+    #body #main .grid-formacion-musical .formacion-article4 {
+      margin: 0;
+      padding: 4rem 0; }
+  #body #main .horizontal-line-formacion {
+    display: block; }
+  #body #main #carousel-show {
+    display: block; }
+  #body #main .horizontal-line-recording {
+    display: block; }
+  #body main .portfolio-container {
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "main-hero-portfolio main-hero-portfolio main-hero-portfolio" "portfolio-title portfolio-title portfolio-title" "img-section1 img-section2 img-section3"; }
+    #body main .portfolio-container .main-hero-portfolio {
+      width: 100%;
+      height: 100vh; }
+      #body main .portfolio-container .main-hero-portfolio .portfolio-hero-title {
+        font-size: 5.7rem; }
+    #body main .portfolio-container .portfolio-title h2 {
+      font-size: 5.7rem; }
+    #body main .portfolio-container .img-section3 {
+      display: block; }
+  #body .grid-container-horarios {
+    grid-template-areas: "main-hero-horarios main-hero-horarios" "main-section-horarios-flex main-section-horarios-flex" "main-title-horarios main-title-horarios"; }
+    #body .grid-container-horarios .main-hero-horarios section .main-section-horarios-flex .main-title-horarios {
+      font-size: 4rem;
+      margin-top: 2rem; }
+  #body .main-equipos {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "main-equipos-title main-equipos-title main-equipos-title" "card1 card2 card3" "card4 card5 card6" "horizontal-line-vst horizontal-line-vst horizontal-line-vst" "vst-title vst-title vst-title" "card-vst-section card-vst-section card-vst-section" "horizontal-line-carousel horizontal-line-carousel horizontal-line-carousel" "carousel-title carousel-title carousel-title" "carousel-gallery carousel-gallery carousel-gallery"; }
+    #body .main-equipos .main-equipos-title h1 {
+      font-size: 4rem; }
+    #body .main-equipos .card1 h2,
+    #body .main-equipos .card2 h2,
+    #body .main-equipos .card3 h2,
+    #body .main-equipos .card4 h2,
+    #body .main-equipos .card5 h2,
+    #body .main-equipos .card6 h2 {
+      font-size: 3rem; }
+    #body .main-equipos .card1 h3,
+    #body .main-equipos .card2 h3,
+    #body .main-equipos .card3 h3,
+    #body .main-equipos .card4 h3,
+    #body .main-equipos .card5 h3,
+    #body .main-equipos .card6 h3 {
+      font-size: 3rem; }
+    #body .main-equipos .card1 h4,
+    #body .main-equipos .card2 h4,
+    #body .main-equipos .card3 h4,
+    #body .main-equipos .card4 h4,
+    #body .main-equipos .card5 h4,
+    #body .main-equipos .card6 h4 {
+      font-size: 3rem; }
+    #body .main-equipos .horizontal-line-vst {
+      display: block; }
+    #body .main-equipos .vst-title {
+      display: block; }
+    #body .main-equipos .card-vst-section {
+      display: flex; }
+    #body .main-equipos .carousel-title h6 {
+      font-size: 4rem; }
+    #body .main-equipos .container-fluid #carousel-gallery {
+      margin: 0 9rem; }
+  #body .flex-photo-gallery .gallery-title h1 {
+    font-size: 5.7rem; }
+  #body .flex-photo-gallery .grid-photo-container {
+    padding: 5rem;
+    gap: 3rem;
+    grid-template-areas: "gallery-section1 gallery-section2 gallery-section3" "gallery-section1 gallery-section2 gallery-section3" "gallery-section1 gallery-section2 gallery-section3"; }
+    #body .flex-photo-gallery .grid-photo-container .gallery-section1 .gallery-flex-container img,
+    #body .flex-photo-gallery .grid-photo-container .gallery-section2 .gallery-flex-container img,
+    #body .flex-photo-gallery .grid-photo-container .gallery-section3 .gallery-flex-container img {
+      width: 100%; }
+    #body .flex-photo-gallery .grid-photo-container .gallery-section3 {
+      display: block; }
+  #body #main section .contacto-title {
+    font-size: 5rem; } }
+
+@media screen and (min-width: 1160px) {
+  #body #main {
+    /* ANGLE DIV RED AND WHITE SHOW UP  */ }
+    #body #main .horizontal-line-studio {
+      display: block; }
+    #body #main .horizontal-line-rectangle {
+      display: block; }
+    #body #main .horizontal-line-studio {
+      display: block; }
+    #body #main #recording-studio-section {
+      display: block; }
+      #body #main #recording-studio-section #recording-studio {
+        padding: 3rem 0; }
+        #body #main #recording-studio-section #recording-studio #grey-square1 {
+          position: relative;
+          left: 340px;
+          width: 15%;
+          height: 330px; }
+          #body #main #recording-studio-section #recording-studio #grey-square1 img {
+            position: absolute;
+            top: -3rem;
+            bottom: 20px;
+            left: -100px;
+            width: 350px;
+            height: auto; }
+        #body #main #recording-studio-section #recording-studio #grey-square2 {
+          position: relative;
+          left: -320px;
+          width: 30%;
+          height: 130px; }
+          #body #main #recording-studio-section #recording-studio #grey-square2 img {
+            position: absolute;
+            top: -150px;
+            bottom: 40px;
+            left: -10px;
+            width: 350px;
+            height: 250px; }
+        #body #main #recording-studio-section #recording-studio #grey-square3 {
+          position: relative;
+          left: 80px;
+          width: 30%;
+          height: 180px; }
+          #body #main #recording-studio-section #recording-studio #grey-square3 img {
+            position: absolute;
+            top: -105px;
+            bottom: 280px;
+            left: -10px;
+            width: 350px;
+            height: 250px; }
+    #body #main .show-rectangle {
+      padding: 5rem 0;
+      display: block;
+      filter: brightness(80%); }
+      #body #main .show-rectangle .rectangle {
+        height: 100%;
+        display: flex; }
+        #body #main .show-rectangle .rectangle .content {
+          width: calc(50% - 50px);
+          background-color: #a62626;
+          box-sizing: border-box;
+          color: #e4e2e2; }
+          #body #main .show-rectangle .rectangle .content h6 {
+            font-size: 2rem;
+            text-align: center;
+            font-weight: 700;
+            letter-spacing: 0.1rem;
+            padding: 2rem 0 0.5rem 0; }
+          #body #main .show-rectangle .rectangle .content p {
+            margin-left: 1rem;
+            text-align: center;
+            font-weight: bold; }
+          #body #main .show-rectangle .rectangle .content ul {
+            font-size: 1rem;
+            list-style-type: none;
+            font-weight: 400;
+            line-height: 1.5rem; }
+          #body #main .show-rectangle .rectangle .content .boton-flex-center {
+            padding-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; }
+            #body #main .show-rectangle .rectangle .content .boton-flex-center .rectangle-btn {
+              font-family: "Cairo";
+              font-size: 1.1rem;
+              font-weight: 400;
+              font-style: normal;
+              text-transform: uppercase;
+              letter-spacing: 0.2rem;
+              padding: 0.5rem 1rem;
+              margin-bottom: 1rem;
+              transition: .1s linear;
+              color: #fff;
+              border: solid 1.5px #fff;
+              border-radius: 5rem;
+              background-color: transparent; }
+              #body #main .show-rectangle .rectangle .content .boton-flex-center .rectangle-btn:hover {
+                background-color: black;
+                transition: 0.4s;
+                transform: translateY(-0.5%); }
+              #body #main .show-rectangle .rectangle .content .boton-flex-center .rectangle-btn a {
+                color: whitesmoke; }
+        #body #main .show-rectangle .rectangle .image-box {
+          width: calc(50% + 50px);
+          height: 100%;
+          background-color: #a62626;
+          box-sizing: border-box;
+          border-left: 100px solid #a62626;
+          border-bottom: 400px solid transparent;
+          background-image: url(https://i.ibb.co/dtWB6Sy/whitegirl22.jpg); } }
+
+/* PAGES IMPORTS  */
+main .portfolio-container {
+  padding: 2rem 0 4rem 0;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "main-hero-portfolio" "portfolio-title" "img-section1" "img-section2" "img-section3";
+  gap: 2rem; }
+  main .portfolio-container .main-hero-portfolio {
+    width: 100%;
+    height: 65vh;
+    grid-area: main-hero-portfolio;
+    background-image: linear-gradient(rgba(16, 16, 16, 0.4), rgba(16, 16, 16, 0.4)), url(https://i.ibb.co/tDzHPjT/discos.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .portfolio-container .main-hero-portfolio .portfolio-hero-title {
+      width: 100%;
+      text-align: center;
+      font-size: 3rem;
+      letter-spacing: 0.3rem; }
+  main .portfolio-container .portfolio-title {
+    grid-area: portfolio-title; }
+    main .portfolio-container .portfolio-title h2 {
+      padding: 2rem;
+      font-size: 3rem;
+      text-align: center;
+      letter-spacing: 0.4rem; }
+  main .portfolio-container section .portfolio-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; }
+    main .portfolio-container section .portfolio-img a {
+      padding: 2rem; }
+      main .portfolio-container section .portfolio-img a img {
+        width: 100%;
+        height: 100%;
+        transition: 0.2s; }
+        main .portfolio-container section .portfolio-img a img:hover {
+          transform: translateX(1%);
+          cursor: pointer;
+          filter: grayscale(1); }
+    main .portfolio-container section .portfolio-img audio {
+      padding-bottom: 2rem; }
+  main .portfolio-container .img-section1 {
+    grid-area: img-section1; }
+  main .portfolio-container .img-section2 {
+    grid-area: img-section2; }
+  main .portfolio-container .img-section3 {
+    grid-area: img-section3;
+    display: none; }
+  main .portfolio-container .img-section1,
+  main .portfolio-container .img-section2,
+  main .portfolio-container .img-section3 {
+    height: 100%; }
+    main .portfolio-container .img-section1 .portfolio-title-audio,
+    main .portfolio-container .img-section2 .portfolio-title-audio,
+    main .portfolio-container .img-section3 .portfolio-title-audio {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem 0;
+      gap: 0.2rem; }
+      main .portfolio-container .img-section1 .portfolio-title-audio .portfolio-btn,
+      main .portfolio-container .img-section2 .portfolio-title-audio .portfolio-btn,
+      main .portfolio-container .img-section3 .portfolio-title-audio .portfolio-btn {
+        margin: 0 auto; }
+        main .portfolio-container .img-section1 .portfolio-title-audio .portfolio-btn:hover,
+        main .portfolio-container .img-section2 .portfolio-title-audio .portfolio-btn:hover,
+        main .portfolio-container .img-section3 .portfolio-title-audio .portfolio-btn:hover {
+          background-color: #0f0f0f;
+          transition: 0.4s;
+          transform: translateY(-0.5%); }
+        main .portfolio-container .img-section1 .portfolio-title-audio .portfolio-btn a,
+        main .portfolio-container .img-section2 .portfolio-title-audio .portfolio-btn a,
+        main .portfolio-container .img-section3 .portfolio-title-audio .portfolio-btn a {
+          color: whitesmoke; }
+      main .portfolio-container .img-section1 .portfolio-title-audio h2,
+      main .portfolio-container .img-section2 .portfolio-title-audio h2,
+      main .portfolio-container .img-section3 .portfolio-title-audio h2 {
+        font-size: 2rem;
+        color: whitesmoke;
+        letter-spacing: normal;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Source Code Pro"; }
+      main .portfolio-container .img-section1 .portfolio-title-audio h3,
+      main .portfolio-container .img-section2 .portfolio-title-audio h3,
+      main .portfolio-container .img-section3 .portfolio-title-audio h3 {
+        font-size: 2rem;
+        color: whitesmoke;
+        letter-spacing: normal;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Source Code Pro"; }
+      main .portfolio-container .img-section1 .portfolio-title-audio h4,
+      main .portfolio-container .img-section2 .portfolio-title-audio h4,
+      main .portfolio-container .img-section3 .portfolio-title-audio h4 {
+        font-size: 2rem;
+        color: whitesmoke;
+        letter-spacing: normal;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Source Code Pro"; }
+      main .portfolio-container .img-section1 .portfolio-title-audio h5,
+      main .portfolio-container .img-section2 .portfolio-title-audio h5,
+      main .portfolio-container .img-section3 .portfolio-title-audio h5 {
+        height: 100%;
+        width: 100%;
+        font-size: 2rem;
+        color: whitesmoke;
+        letter-spacing: normal;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Source Code Pro"; }
+      main .portfolio-container .img-section1 .portfolio-title-audio p,
+      main .portfolio-container .img-section2 .portfolio-title-audio p,
+      main .portfolio-container .img-section3 .portfolio-title-audio p {
+        font-size: 1.2rem;
+        color: whitesmoke;
+        letter-spacing: normal;
+        text-align: center; }
+
+.grid-container-horarios {
+  display: grid;
+  grid-template-areas: "main-hero-horarios" "main-section-horarios-flex" "main-title-horarios"; }
+  .grid-container-horarios .main-hero-horarios {
+    grid-area: main-hero-horarios;
+    background-image: linear-gradient(rgba(16, 16, 16, 0.4), rgba(16, 16, 16, 0.4)), url(https://i.ibb.co/N1cBKwH/horario2.jpg); }
+    .grid-container-horarios .main-hero-horarios section {
+      height: 100%; }
+      .grid-container-horarios .main-hero-horarios section .main-section-horarios-flex {
+        padding-top: 2rem;
+        grid-area: main-section-horarios-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .grid-container-horarios .main-hero-horarios section .main-section-horarios-flex .main-title-horarios {
+          grid-area: main-title-horarios;
+          text-align: center;
+          color: whitesmoke;
+          font-size: 2rem;
+          font-weight: 300;
+          letter-spacing: 0.3rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 2rem; }
+      .grid-container-horarios .main-hero-horarios section ul {
+        text-align: center;
+        color: whitesmoke;
+        list-style-type: none;
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 4rem;
+        border: 0.063rem solid whitesmoke;
+        width: 90%;
+        height: 100%; }
+
+.main-equipos {
+  display: grid;
+  grid-template-areas: "main-equipos-title" "card1" "card2" "card3" "card4" "card5" "card6" "horizontal-line-vst" "vst-title" "card-vst-section" "horizontal-line-carousel" "carousel-title" "carousel-gallery";
+  gap: 1rem; }
+  .main-equipos .main-equipos-title {
+    grid-area: main-equipos-title;
+    padding-top: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: whitesmoke;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem; }
+    .main-equipos .main-equipos-title h1 {
+      font-size: 2.5rem; }
+  .main-equipos .card1 {
+    grid-area: card1; }
+  .main-equipos .card2 {
+    grid-area: card2; }
+  .main-equipos .card3 {
+    grid-area: card3; }
+  .main-equipos .card4 {
+    grid-area: card4; }
+  .main-equipos .card5 {
+    grid-area: card5; }
+  .main-equipos .card6 {
+    grid-area: card6; }
+  .main-equipos .card1,
+  .main-equipos .card2,
+  .main-equipos .card3,
+  .main-equipos .card4,
+  .main-equipos .card5,
+  .main-equipos .card6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .main-equipos .card1 .equipamiento-card,
+    .main-equipos .card2 .equipamiento-card,
+    .main-equipos .card3 .equipamiento-card,
+    .main-equipos .card4 .equipamiento-card,
+    .main-equipos .card5 .equipamiento-card,
+    .main-equipos .card6 .equipamiento-card {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      transform-style: preserve-3d; }
+      .main-equipos .card1 .equipamiento-card .face,
+      .main-equipos .card2 .equipamiento-card .face,
+      .main-equipos .card3 .equipamiento-card .face,
+      .main-equipos .card4 .equipamiento-card .face,
+      .main-equipos .card5 .equipamiento-card .face,
+      .main-equipos .card6 .equipamiento-card .face {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        backface-visibility: hidden;
+        transition: 2s ease-in-out;
+        transform: perspective(500px) rotateY(0deg); }
+        .main-equipos .card1 .equipamiento-card .face img,
+        .main-equipos .card2 .equipamiento-card .face img,
+        .main-equipos .card3 .equipamiento-card .face img,
+        .main-equipos .card4 .equipamiento-card .face img,
+        .main-equipos .card5 .equipamiento-card .face img,
+        .main-equipos .card6 .equipamiento-card .face img {
+          padding: 1rem;
+          border: 0.1rem solid #202020;
+          width: 250px;
+          height: 200px; }
+      .main-equipos .card1 .equipamiento-card .face.back,
+      .main-equipos .card2 .equipamiento-card .face.back,
+      .main-equipos .card3 .equipamiento-card .face.back,
+      .main-equipos .card4 .equipamiento-card .face.back,
+      .main-equipos .card5 .equipamiento-card .face.back,
+      .main-equipos .card6 .equipamiento-card .face.back {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: perspective(500px) rotateY(180deg); }
+      .main-equipos .card1 .equipamiento-card:hover .face.front,
+      .main-equipos .card2 .equipamiento-card:hover .face.front,
+      .main-equipos .card3 .equipamiento-card:hover .face.front,
+      .main-equipos .card4 .equipamiento-card:hover .face.front,
+      .main-equipos .card5 .equipamiento-card:hover .face.front,
+      .main-equipos .card6 .equipamiento-card:hover .face.front {
+        transform: perspective(500px) rotateY(180deg); }
+      .main-equipos .card1 .equipamiento-card:hover .face.back,
+      .main-equipos .card2 .equipamiento-card:hover .face.back,
+      .main-equipos .card3 .equipamiento-card:hover .face.back,
+      .main-equipos .card4 .equipamiento-card:hover .face.back,
+      .main-equipos .card5 .equipamiento-card:hover .face.back,
+      .main-equipos .card6 .equipamiento-card:hover .face.back {
+        transform: perspective(500px) rotateY(360deg); }
+      .main-equipos .card1 .equipamiento-card div a,
+      .main-equipos .card2 .equipamiento-card div a,
+      .main-equipos .card3 .equipamiento-card div a,
+      .main-equipos .card4 .equipamiento-card div a,
+      .main-equipos .card5 .equipamiento-card div a,
+      .main-equipos .card6 .equipamiento-card div a {
+        color: whitesmoke; }
+        .main-equipos .card1 .equipamiento-card div a p span,
+        .main-equipos .card2 .equipamiento-card div a p span,
+        .main-equipos .card3 .equipamiento-card div a p span,
+        .main-equipos .card4 .equipamiento-card div a p span,
+        .main-equipos .card5 .equipamiento-card div a p span,
+        .main-equipos .card6 .equipamiento-card div a p span {
+          display: block; }
+        .main-equipos .card1 .equipamiento-card div a p:hover,
+        .main-equipos .card2 .equipamiento-card div a p:hover,
+        .main-equipos .card3 .equipamiento-card div a p:hover,
+        .main-equipos .card4 .equipamiento-card div a p:hover,
+        .main-equipos .card5 .equipamiento-card div a p:hover,
+        .main-equipos .card6 .equipamiento-card div a p:hover {
+          cursor: pointer;
+          color: #e52e71; }
+  .main-equipos .vst-title {
+    grid-area: vst-title;
+    text-align: center;
+    display: none; }
+    .main-equipos .vst-title article h4 {
+      font-size: 4rem; }
+  .main-equipos .card-vst-section {
+    grid-area: card-vst-section;
+    display: flex;
+    padding: 4rem 6rem 6rem 6rem;
+    overflow-x: scroll;
+    display: none; }
+    .main-equipos .card-vst-section::-webkit-scrollbar {
+      width: 10px;
+      height: 10px; }
+    .main-equipos .card-vst-section::-webkit-scrollbar-thumb {
+      background: #201c29;
+      border-radius: 0.625rem;
+      box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25); }
+    .main-equipos .card-vst-section::-webkit-scrollbar-track {
+      background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d); }
+    .main-equipos .card-vst-section .card-vst1:focus-within ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst1:focus-within ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst1:focus-within ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst1:focus-within ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst1:focus-within ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst1:focus-within ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst1:focus-within ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst2:focus-within ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst2:focus-within ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst2:focus-within ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst2:focus-within ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst2:focus-within ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst2:focus-within ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst2:focus-within ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst3:focus-within ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst4:focus-within ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst4:focus-within ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst4:focus-within ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst4:focus-within ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst4:focus-within ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst4:focus-within ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst4:focus-within ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst5:focus-within ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst5:focus-within ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst5:focus-within ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst5:focus-within ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst5:focus-within ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst5:focus-within ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst5:focus-within ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst6:focus-within ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst6:focus-within ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst6:focus-within ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst6:focus-within ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst6:focus-within ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst6:focus-within ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst6:focus-within ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst7:focus-within ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst7:focus-within ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst7:focus-within ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst7:focus-within ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst7:focus-within ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst7:focus-within ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst7:focus-within ~ .card-vst7 {
+      transform: translateX(130px); }
+    .main-equipos .card-vst-section .card-vst1:hover ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst1:hover ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst1:hover ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst1:hover ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst1:hover ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst1:hover ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst1:hover ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst2:hover ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst2:hover ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst2:hover ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst2:hover ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst2:hover ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst2:hover ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst2:hover ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst3:hover ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst4:hover ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst4:hover ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst4:hover ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst4:hover ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst4:hover ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst4:hover ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst4:hover ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst5:hover ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst5:hover ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst5:hover ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst5:hover ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst5:hover ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst5:hover ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst5:hover ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst6:hover ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst6:hover ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst6:hover ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst6:hover ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst6:hover ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst6:hover ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst6:hover ~ .card-vst7,
+    .main-equipos .card-vst-section .card-vst7:hover ~ .card-vst1,
+    .main-equipos .card-vst-section .card-vst7:hover ~ .card-vst2,
+    .main-equipos .card-vst-section .card-vst7:hover ~ .card-vst3,
+    .main-equipos .card-vst-section .card-vst7:hover ~ .card-vst4,
+    .main-equipos .card-vst-section .card-vst7:hover ~ .card-vst5,
+    .main-equipos .card-vst-section .card-vst7:hover ~ .card-vst6,
+    .main-equipos .card-vst-section .card-vst7:hover ~ .card-vst7 {
+      transform: translateX(130px); }
+    .main-equipos .card-vst-section .card-vst1:hover,
+    .main-equipos .card-vst-section .card-vst2:hover,
+    .main-equipos .card-vst-section .card-vst3:hover,
+    .main-equipos .card-vst-section .card-vst3:hover,
+    .main-equipos .card-vst-section .card-vst4:hover,
+    .main-equipos .card-vst-section .card-vst5:hover,
+    .main-equipos .card-vst-section .card-vst6:hover,
+    .main-equipos .card-vst-section .card-vst7:hover {
+      transform: translateY(-1rem); }
+    .main-equipos .card-vst-section .card-vst1:not(:first-child),
+    .main-equipos .card-vst-section .card-vst2:not(:first-child),
+    .main-equipos .card-vst-section .card-vst3:not(:first-child),
+    .main-equipos .card-vst-section .card-vst3:not(:first-child),
+    .main-equipos .card-vst-section .card-vst4:not(:first-child),
+    .main-equipos .card-vst-section .card-vst5:not(:first-child),
+    .main-equipos .card-vst-section .card-vst6:not(:first-child),
+    .main-equipos .card-vst-section .card-vst7:not(:first-child) {
+      margin-left: -8.125rem; }
+    .main-equipos .card-vst-section .card-article p {
+      font-size: 0.9rem;
+      margin: 0 0 1rem;
+      color: #7a7a8c; }
+    .main-equipos .card-vst-section .card-article h2 {
+      font-size: 1.25rem;
+      margin: .25rem 0 auto;
+      color: inherit;
+      border: 0;
+      display: inline-block;
+      cursor: pointer; }
+    .main-equipos .card-vst-section .card-author {
+      margin: 3rem 0 0;
+      display: grid;
+      grid-template-columns: 75px 1fr;
+      align-items: center;
+      position: relative; }
+    .main-equipos .card-vst-section .author-avatar {
+      grid-area: auto;
+      align-self: start;
+      position: relative;
+      box-sizing: border-box; }
+      .main-equipos .card-vst-section .author-avatar img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        filter: grayscale(100%);
+        display: block;
+        overflow: hidden;
+        margin: 1rem 0.8rem; }
+    .main-equipos .card-vst-section .author-name {
+      grid-area: auto;
+      box-sizing: border-box; }
+    .main-equipos .card-vst-section .author-name-prefix {
+      font-style: normal;
+      font-weight: 700;
+      color: #7a7a8c; }
+    .main-equipos .card-vst-section .half-circle {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 48px;
+      fill: none;
+      stroke: #ff8a00;
+      stroke-width: 8;
+      stroke-linecap: round;
+      pointer-events: none; }
+    .main-equipos .card-vst-section .tags {
+      margin: 1rem 0 2rem;
+      padding: .5rem 0 1rem;
+      line-height: 2rem;
+      margin-bottom: 0; }
+      .main-equipos .card-vst-section .tags span {
+        display: block; }
+      .main-equipos .card-vst-section .tags a {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 0.5rem;
+        color: #7a7a8c;
+        text-transform: uppercase;
+        font-size: .66rem;
+        border: 0.188rem solid #28242f;
+        border-radius: 2rem;
+        padding: .2rem .85rem .25rem;
+        position: relative; }
+        .main-equipos .card-vst-section .tags a:hover {
+          border-color: whitesmoke; }
+  .main-equipos .carousel-title {
+    grid-area: carousel-title;
+    margin: 0 0.5rem; }
+    .main-equipos .carousel-title h6 {
+      font-size: 2.5rem;
+      width: 100%;
+      text-align: center;
+      color: whitesmoke;
+      letter-spacing: 0.2rem; }
+  .main-equipos .container-fluid {
+    grid-area: carousel-gallery; }
+    .main-equipos .container-fluid #carousel-gallery {
+      margin: 0 1rem; }
+
+.flex-photo-gallery {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2.2rem 1.1rem; }
+  .flex-photo-gallery .gallery-title {
+    margin-bottom: 5rem; }
+    .flex-photo-gallery .gallery-title h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      letter-spacing: 0.3rem; }
+      .flex-photo-gallery .gallery-title h1 span {
+        font-weight: 100;
+        border-bottom: 0.188rem solid #222; }
+  .flex-photo-gallery .grid-photo-container {
+    display: grid;
+    grid-template-areas: "gallery-section1" "gallery-section2" "gallery-section3"; }
+    .flex-photo-gallery .grid-photo-container .gallery-section1 {
+      grid-area: gallery-section1; }
+      .flex-photo-gallery .grid-photo-container .gallery-section1 .img-black {
+        filter: grayscale(1) brightness(55%); }
+    .flex-photo-gallery .grid-photo-container .gallery-section2 {
+      grid-area: gallery-section2;
+      display: none; }
+    .flex-photo-gallery .grid-photo-container .gallery-section3 {
+      grid-area: gallery-section3;
+      display: none; }
+    .flex-photo-gallery .grid-photo-container .gallery-section1 .gallery-flex-container,
+    .flex-photo-gallery .grid-photo-container .gallery-section2 .gallery-flex-container,
+    .flex-photo-gallery .grid-photo-container .gallery-section3 .gallery-flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-items: center;
+      gap: 1rem; }
+      .flex-photo-gallery .grid-photo-container .gallery-section1 .gallery-flex-container img,
+      .flex-photo-gallery .grid-photo-container .gallery-section2 .gallery-flex-container img,
+      .flex-photo-gallery .grid-photo-container .gallery-section3 .gallery-flex-container img {
+        filter: brightness(65%);
+        width: 50%;
+        padding-bottom: 0.938rem;
+        border-radius: 0.313rem; }
+
+.main section .contacto-hero {
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(https://i.ibb.co/pJrHjz6/citynight.jpg);
+  height: 45vh; }
+
+.main section .contacto-title {
+  font-size: 3rem; }
+
+.main section .main-contacto {
+  width: 90%;
+  margin: 0 auto; }
+  .main section .main-contacto div .btn-contacto:hover {
+    background-color: #717070; }
+  .main section .main-contacto div .btn-contacto a {
+    padding: 1rem;
+    color: whitesmoke; }
+
+/* LAYOUT IMPORTS  */
+.header .menu .nav-menu .container-logo:hover {
+  background-color: black; }
+
+.header .menu .nav-menu .container-logo .link-logo img {
+  display: none; }
+
+.header .menu .nav-menu .menu-flex .menu-container .menu-position {
+  width: 100%; }
+  .header .menu .nav-menu .menu-flex .menu-container .menu-position .menu-list .nav-items .nav-links {
+    color: #b7b7ce;
+    white-space: nowrap; }
+  .header .menu .nav-menu .menu-flex .menu-container .menu-position .menu-list .nav-items .nav-link:hover {
+    color: whitesmoke; }
+
+.footer-container {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .footer-container .footer-content span {
+    padding: 1rem;
+    display: block; }
+  .footer-container .footer-content h2 {
+    text-align: center;
+    font-size: 1.1rem;
+    width: 100%; }
+    .footer-container .footer-content h2 a {
+      color: whitesmoke; }
+      .footer-container .footer-content h2 a:hover {
+        color: #ccc; }
+  .footer-container .footer-content h4 {
+    text-align: center;
+    font-size: 1.1rem; }
+    .footer-container .footer-content h4 a {
+      color: whitesmoke; }
+      .footer-container .footer-content h4 a:hover {
+        color: #ccc; }
+  .footer-container .footer-content h6 {
+    text-align: center;
+    font-size: 1.1rem;
+    width: 100%; }
+    .footer-container .footer-content h6 a {
+      color: whitesmoke; }
+      .footer-container .footer-content h6 a:hover {
+        color: #ccc; }
+  .footer-container .footer-icons-flex {
+    padding: 1.3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem; }
+    .footer-container .footer-icons-flex a {
+      color: whitesmoke; }
+      .footer-container .footer-icons-flex a .icon-item {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        border: 2px solid whitesmoke; }
+        .footer-container .footer-icons-flex a .icon-item:hover {
+          background-color: whitesmoke;
+          color: #000;
+          cursor: pointer; }
+
+/* BASE IMPORTS GLOBAL SETTINGS */
+/* GLOBAL RESET  */
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box; }
+
+#body {
+  font-family: "Roboto";
+  background-color: #000;
+  color: #d2d1d1; }
+
+.horizontal-line {
+  grid-area: h-line;
+  margin: 2rem 4rem; }
+
+.horizontal-line-footer {
+  margin: 1rem 4rem; }
+
+.horizontal-line-carousel {
+  grid-area: horizontal-line-carousel;
+  margin: 2rem 4rem; }
+
+.horizontal-line-vst {
+  margin: 2rem 4rem;
+  grid-area: horizontal-line-vst;
+  display: none; }
+
+.horizontal-line-studio {
+  display: none; }
+
+a {
+  text-decoration: none; }
+
+/* ------------------------------------------------------  */
+/*                   MOBILE FIRST                          */
+/* ------------------------------------------------------  */
+#main #main-hero-section #main-hero-container {
+  height: 40vh;
+  background-color: #171c21;
+  background-image: linear-gradient(rgba(16, 16, 16, 0.4), rgba(16, 16, 16, 0.4)), url(https://i.ibb.co/sQfLpgd/aldoestudios.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #main #main-hero-section #main-hero-container #main-title {
+    color: whitesmoke;
+    font-size: 1rem;
+    letter-spacing: 0.8rem;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.7rem;
+    font-family: "Roboto Condensed"; }
+    #main #main-hero-section #main-hero-container #main-title #title-hero {
+      font-size: 3rem; }
+
+#main #main-text {
+  padding-top: 2rem;
+  color: whitesmoke;
+  text-align: center; }
+  #main #main-text #main-text-container #main-subtitle {
+    padding-bottom: 1.5rem; }
+  #main #main-text #main-text-container #main-info {
+    line-height: 1.7rem; }
+    #main #main-text #main-text-container #main-info span {
+      display: block; }
+
+#main #card-section #card-title-intro {
+  margin: 0 1rem;
+  line-height: 3rem; }
+
+#main #card-section #grid-card-container {
+  padding: 0 2rem;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "card-section1" "card-section2" "card-section3";
+  grid-gap: 6rem; }
+  #main #card-section #grid-card-container #flex-card-container {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    text-align: center; }
+    #main #card-section #grid-card-container #flex-card-container #card-section1 {
+      height: 100%;
+      grid-area: card-section1; }
+    #main #card-section #grid-card-container #flex-card-container #card-section2 {
+      grid-area: card-section2; }
+    #main #card-section #grid-card-container #flex-card-container #card-section3 {
+      height: 100%;
+      grid-area: card-section3; }
+    #main #card-section #grid-card-container #flex-card-container #grid-item-card {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      transition: 0.2s; }
+      #main #card-section #grid-card-container #flex-card-container #grid-item-card:hover {
+        transform: translateY(-0.5%); }
+      #main #card-section #grid-card-container #flex-card-container #grid-item-card #card {
+        border: 0.1rem solid #202020; }
+        #main #card-section #grid-card-container #flex-card-container #grid-item-card #card.card1 {
+          height: 100%;
+          background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(https://i.ibb.co/bdq4yj9/card1.jpg); }
+        #main #card-section #grid-card-container #flex-card-container #grid-item-card #card.card2 {
+          height: 100%;
+          background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(https://i.ibb.co/t41YW9j/card2.jpg); }
+        #main #card-section #grid-card-container #flex-card-container #grid-item-card #card.card3 {
+          height: 100%;
+          background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(https://i.ibb.co/PTKkSwn/card4.jpg); }
+        #main #card-section #grid-card-container #flex-card-container #grid-item-card #card #card-title {
+          font-size: 1.5rem;
+          letter-spacing: 0.1rem;
+          text-transform: uppercase; }
+        #main #card-section #grid-card-container #flex-card-container #grid-item-card #card #card-text {
+          letter-spacing: 0.1rem;
+          margin: 2rem; }
+        #main #card-section #grid-card-container #flex-card-container #grid-item-card #card #card-btn:hover {
+          background-color: black;
+          transition: 0.4s;
+          transform: translateY(-0.5%); }
+        #main #card-section #grid-card-container #flex-card-container #grid-item-card #card #card-btn a {
+          color: whitesmoke; }
+        #main #card-section #grid-card-container #flex-card-container #grid-item-card #card h3 {
+          padding-top: 10rem; }
+
+#main #main-text-2-section {
+  color: whitesmoke; }
+  #main #main-text-2-section #main-text-2-container #main-subtitle-2 {
+    line-height: 2.3rem; }
+    #main #main-text-2-section #main-text-2-container #main-subtitle-2 span {
+      display: block; }
+  #main #main-text-2-section #main-text-2-container p {
+    margin: 1rem;
+    line-height: 1.7rem; }
+    #main #main-text-2-section #main-text-2-container p span {
+      display: block; }
+
+#main .show-rectangle {
+  display: none; }
+
+#main .horizontal-line-studio {
+  display: none; }
+
+#main #recording-studio-section {
+  display: none;
+  padding: 1rem 0; }
+  #main #recording-studio-section #recording-studio-title {
+    padding-bottom: 2rem; }
+  #main #recording-studio-section #recording-studio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    #main #recording-studio-section #recording-studio img {
+      padding: 0 2rem;
+      width: 100%;
+      cursor: pointer;
+      filter: grayscale(1);
+      transition: 0.2s; }
+      #main #recording-studio-section #recording-studio img:hover {
+        transform: translateY(-2%); }
+    #main #recording-studio-section #recording-studio #grey-square1,
+    #main #recording-studio-section #recording-studio #grey-square2,
+    #main #recording-studio-section #recording-studio #grey-square3 {
+      border: 1rem solid #1f1d1d; }
+      #main #recording-studio-section #recording-studio #grey-square1 img,
+      #main #recording-studio-section #recording-studio #grey-square2 img,
+      #main #recording-studio-section #recording-studio #grey-square3 img {
+        margin: 4rem 0;
+        padding: 0 2rem;
+        width: 100%;
+        cursor: pointer;
+        filter: grayscale(1);
+        transition: 0.2s; }
+        #main #recording-studio-section #recording-studio #grey-square1 img:hover,
+        #main #recording-studio-section #recording-studio #grey-square2 img:hover,
+        #main #recording-studio-section #recording-studio #grey-square3 img:hover {
+          transform: translateY(-2%); }
+
+#main .grid-estudios {
+  margin: 3rem 3rem 0 3rem;
+  display: grid;
+  grid-template-areas: "image1" "estudio-article1" "image2" "estudio-article2" "image3" "estudio-article3";
+  row-gap: 2rem; }
+  #main .grid-estudios div img {
+    display: block;
+    width: 100%; }
+  #main .grid-estudios div .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Source Code Pro";
+    opacity: 0;
+    transition: opacity 0.9s; }
+    #main .grid-estudios div .image-overlay:hover {
+      opacity: 1; }
+    #main .grid-estudios div .image-overlay h4 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 1rem; }
+    #main .grid-estudios div .image-overlay p {
+      text-align: center;
+      font-size: 1rem;
+      line-height: 1rem; }
+  #main .grid-estudios .image1 {
+    grid-area: image1; }
+  #main .grid-estudios .image2 {
+    grid-area: image2; }
+  #main .grid-estudios .image3 {
+    grid-area: image3; }
+  #main .grid-estudios .image1,
+  #main .grid-estudios .image2,
+  #main .grid-estudios .image3 {
+    position: relative;
+    width: 100%; }
+    #main .grid-estudios .image1 img,
+    #main .grid-estudios .image2 img,
+    #main .grid-estudios .image3 img {
+      filter: grayscale(1); }
+  #main .grid-estudios .estudio-article1 {
+    grid-area: estudio-article1; }
+  #main .grid-estudios .estudio-article2 {
+    grid-area: estudio-article2; }
+  #main .grid-estudios .estudio-article3 {
+    grid-area: estudio-article3; }
+  #main .grid-estudios .estudio-article1,
+  #main .grid-estudios .estudio-article2,
+  #main .grid-estudios .estudio-article3 {
+    background-color: #161616a0; }
+    #main .grid-estudios .estudio-article1 .estudio-info,
+    #main .grid-estudios .estudio-article2 .estudio-info,
+    #main .grid-estudios .estudio-article3 .estudio-info {
+      margin: 1rem 0.5rem;
+      text-align: center;
+      font-family: "Roboto"; }
+
+#main .grid-produccion-musical {
+  display: grid;
+  grid-template-areas: "produccion-title" "produccion1" "produccion-article1" "produccion2" "produccion-article2" "produccion3" "produccion-article3"; }
+  #main .grid-produccion-musical .produccion-musical-title {
+    grid-area: produccion-title;
+    padding: 0 2rem 2rem 2rem;
+    line-height: 3rem;
+    text-transform: none; }
+    #main .grid-produccion-musical .produccion-musical-title h5 {
+      width: 100%;
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 0 1rem;
+      margin-bottom: 1rem;
+      line-height: 2.7rem;
+      text-transform: uppercase; }
+  #main .grid-produccion-musical div {
+    transition: 1s; }
+    #main .grid-produccion-musical div img {
+      width: 75%;
+      height: 100%;
+      filter: brigthness(70%);
+      transition: 1.3s; }
+      #main .grid-produccion-musical div img:hover {
+        transform: scale(1.1);
+        z-index: 2;
+        cursor: pointer; }
+  #main .grid-produccion-musical .produccion1 {
+    grid-area: produccion1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  #main .grid-produccion-musical .produccion2 {
+    grid-area: produccion2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  #main .grid-produccion-musical .produccion3 {
+    grid-area: produccion3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  #main .grid-produccion-musical .produccion-article1 {
+    grid-area: produccion-article1; }
+  #main .grid-produccion-musical .produccion-article2 {
+    grid-area: produccion-article2; }
+  #main .grid-produccion-musical .produccion-article3 {
+    grid-area: produccion-article3;
+    margin: 2rem 2rem 0 2rem; }
+  #main .grid-produccion-musical .produccion-article1,
+  #main .grid-produccion-musical .produccion-article2,
+  #main .grid-produccion-musical .produccion-article3 {
+    background-color: #161616a0;
+    margin: 2rem;
+    text-align: center;
+    font-family: "Roboto"; }
+    #main .grid-produccion-musical .produccion-article1 h5,
+    #main .grid-produccion-musical .produccion-article2 h5,
+    #main .grid-produccion-musical .produccion-article3 h5 {
+      margin: 1rem 0.5rem;
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 0 1rem;
+      margin-bottom: 1rem; }
+    #main .grid-produccion-musical .produccion-article1 p,
+    #main .grid-produccion-musical .produccion-article2 p,
+    #main .grid-produccion-musical .produccion-article3 p {
+      margin: 1rem; }
+      #main .grid-produccion-musical .produccion-article1 p span,
+      #main .grid-produccion-musical .produccion-article2 p span,
+      #main .grid-produccion-musical .produccion-article3 p span {
+        display: block; }
+
+#main .grid-formacion-musical {
+  display: grid;
+  grid-template-areas: "formacion-title" "formacion1" "formacion-article1" "formacion2" "formacion-article2" "h-line" "formacion3" "formacion-article3" "formacion4" "formacion-article4"; }
+  #main .grid-formacion-musical div {
+    margin: 0 2rem; }
+    #main .grid-formacion-musical div img {
+      width: 100%;
+      filter: grayscale(1); }
+      #main .grid-formacion-musical div img:hover {
+        cursor: pointer;
+        filter: grayscale(0); }
+  #main .grid-formacion-musical .formacion-title {
+    padding-bottom: 2rem;
+    grid-area: formacion-title; }
+  #main .grid-formacion-musical .formacion1 {
+    grid-area: formacion1; }
+  #main .grid-formacion-musical .formacion2 {
+    grid-area: formacion2; }
+  #main .grid-formacion-musical .formacion3 {
+    grid-area: formacion3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  #main .grid-formacion-musical .formacion4 {
+    grid-area: formacion4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  #main .grid-formacion-musical .formacion-article1 {
+    grid-area: formacion-article1; }
+  #main .grid-formacion-musical .formacion-article2 {
+    grid-area: formacion-article2;
+    margin: 2rem 2rem 0 2rem; }
+  #main .grid-formacion-musical .formacion-article3 {
+    grid-area: formacion-article3; }
+  #main .grid-formacion-musical .formacion-article4 {
+    grid-area: formacion-article4;
+    margin: 2rem 2rem 0 2rem; }
+  #main .grid-formacion-musical .formacion-article1,
+  #main .grid-formacion-musical .formacion-article2,
+  #main .grid-formacion-musical .formacion-article3,
+  #main .grid-formacion-musical .formacion-article4 {
+    margin: 2rem;
+    background-color: #161616a0;
+    text-align: center;
+    font-family: "Roboto"; }
+    #main .grid-formacion-musical .formacion-article1 h6,
+    #main .grid-formacion-musical .formacion-article2 h6,
+    #main .grid-formacion-musical .formacion-article3 h6,
+    #main .grid-formacion-musical .formacion-article4 h6 {
+      text-align: center;
+      font-size: 2rem;
+      margin: 1rem; }
+    #main .grid-formacion-musical .formacion-article1 .formacion-info,
+    #main .grid-formacion-musical .formacion-article2 .formacion-info,
+    #main .grid-formacion-musical .formacion-article3 .formacion-info,
+    #main .grid-formacion-musical .formacion-article4 .formacion-info {
+      margin: 1rem 2rem; }
+      #main .grid-formacion-musical .formacion-article1 .formacion-info span,
+      #main .grid-formacion-musical .formacion-article2 .formacion-info span,
+      #main .grid-formacion-musical .formacion-article3 .formacion-info span,
+      #main .grid-formacion-musical .formacion-article4 .formacion-info span {
+        display: block; }
+
+#main .horizontal-line-formacion {
+  display: none; }
+
+#main #carousel-show {
+  display: none; }
+  #main #carousel-show .carousel-title-index {
+    margin: 3rem;
+    text-align: center; }
+    #main #carousel-show .carousel-title-index h6 {
+      font-size: 3rem; }
+  #main #carousel-show #carousel-gallery div div div img {
+    filter: brightness(75%); }
+
+#main .horizontal-line-recording {
+  display: none; }
+
+#main .horizontal-line-rectangle {
+  display: none;
+  margin: 1rem 4rem; }
+
+#main .arrow-up-container {
+  position: fixed;
+  bottom: 2rem;
+  right: 2.2rem;
+  text-align: center;
+  width: 4vw;
+  height: 5vh; }
+  #main .arrow-up-container .arrow-up-link {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #e4e2e2; }
