@@ -1,0 +1,50 @@
+.animate-slide-up {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1128px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: fit;
+}
+
+
+
+
+
+
+.section-title p::after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+ }
+ 
+ .section-title p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+ }

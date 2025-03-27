@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+color: white;
+  background: black;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.main-container-app{
+  transition: ease-in-out 0.3s;
+  position: relative;
+  height: 100vh;
+  align-items: center;
+  z-index: 997;
+  overflow-y: hidden;
+  align-items:center;
+
+}

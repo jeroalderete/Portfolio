@@ -1,0 +1,7 @@
+.footer-icons{
+    transition: background-color 0.5s ease;
+  }
+  .footer-icons:hover {
+  /* Cambia el color de fondo al hacer hover */
+  background-color: #8d7c7c; /* Puedes ajustar este color según tus preferencias */
+}

@@ -1,0 +1,53 @@
+.animate-slide-up {
+   opacity: 0;
+   animation: fadeInUp 1s ease-out forwards;
+ }
+ 
+ @keyframes fadeInUp {
+   0% {
+     opacity: 0;
+     transform: translateY(50px);
+   }
+   100% {
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1128px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: fit;
+}
+
+.location{
+   color: rgb(51 210 255);
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+   .experience-container {
+      margin-top: 60px !important;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+
+   .container{
+    
+     
+      padding-left: 2rem;
+      padding-right: 2rem;
+  ;
+  }
+
+   .experience-container {
+      margin-top: 0 !important;
+   }
+}

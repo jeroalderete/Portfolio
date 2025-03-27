@@ -1,0 +1,25 @@
+
+.animate-slide-up {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1128px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: fit;
+}
