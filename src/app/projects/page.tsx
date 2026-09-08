@@ -82,7 +82,7 @@ const Projects = () => {
         <article className="px-3 md:px-0 w-full max-h-[30rem] overflow-hidden relative group">
           <div className="flex items-center absolute right-4 top-4 z-10">
             <Link
-              href={"https://elargento.infinityfreeapp.com/"}
+              href={"https://elargento.cl"}
               className="text-white p-3 bg-black/50 rounded-full backdrop-blur-md ml-1"
               aria-label="Social Media"
               target="_blank"
@@ -104,7 +104,7 @@ const Projects = () => {
               </svg>
             </Link>
           </div>
-          <Link href={"https://elargento.infinityfreeapp.com/"} target="_blank">
+          <Link href={"https://elargento.cl"} target="_blank">
             <Image
               src={
                 "https://res.cloudinary.com/dvrc38ei4/image/upload/v1724628343/argento_v3w7nu.png"
